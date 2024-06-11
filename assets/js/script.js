@@ -13,7 +13,7 @@ function menuShow() {
 
 // CRIANDO UM SLIDESHOW AUTOMÁTICO
 
-let imagens=['./assets/img/mahindra-FE.webp', './assets/img/mahindra-banner.jpg', './assets/img/mahindra-banner2.jpg'];
+let imagens=['./assets/img/mahindra-FE.webp', './assets/img/mahindra-banner.jpg', './assets/img/mahindra-banner2.jpg', './assets/img/mahindra-banner3.webp'];
 let index=0;
 let time=5000;
 
