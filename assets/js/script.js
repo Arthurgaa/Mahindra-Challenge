@@ -1,3 +1,5 @@
+// MENU MOBILE
+
 function menuShow() {
     let menuMobile = document.querySelector('.mobile-menu');
     if (menuMobile.classList.contains('open')) {
@@ -8,3 +10,22 @@ function menuShow() {
         document.querySelector('.icon').src = "assets/img/icons8-excluir-50.png";
     }
 }
+
+// CRIANDO UM SLIDESHOW AUTOMÁTICO
+
+let imagens=['./assets/img/mahindra-FE.webp', './assets/img/mahindra-banner.jpg', './assets/img/mahindra-banner2.jpg'];
+let index=0;
+let time=5000;
+
+function slideShow(){
+    document.getElementById("banners").src=imagens[index];
+    index++;
+
+    if(index == imagens.length){
+        index=0;
+    }
+
+    setTimeout('slideShow()', time);
+}
+
+slideShow();

@@ -106,6 +106,10 @@ header {
     }
 }
 
-#capa-site {
+#capa-site{
     display: flex;
+}
+
+#banners{
+    width: 100%;
 }
