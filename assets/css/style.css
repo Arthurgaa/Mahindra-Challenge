@@ -109,9 +109,14 @@ header {
     gap: 100px;
 }
 
-#pilotos h2{
-    color: #24252a85;
+h2{
+    color: #24252a44;
     font-size: 5rem;
+}
+
+h3{
+    color: #24252aa9;
+    font-size: 3rem;
 }
 
 .nidvr img{
