@@ -1,20 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
 
 * {
     padding: 0;
     margin: 0;
-    font-family: 'Inter', sans-serif;
+    font-family: "Gruppo", sans-serif;
+    font-weight: bold;
+}
+
+:root{
+    --red: #B81D1A;
+    --darkgray: #111111;
+    --lightgray: #24252a;
+    --white: #FFFFFF;
 }
 
 header {
-    background-color: #24252a;
+    background-color: var(--lightgray);
     box-shadow: 0px 3px 10px #464646;
 }
 
 .nav-bar {
     display: flex;
     justify-content: space-between;
-    padding: 1.5rem 6rem;
+    padding: 0.1rem 5rem;
 }
 
 .logo {
@@ -45,17 +53,31 @@ header {
     font-weight: 400;
 }
 
+.login-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-button button:hover{
+    background: var(--red);
+}
+
 .login-button button {
     border: none;
-    background-color: #0187a7;
+    background: var(--white);
     padding: 10px 15px;
     border-radius: 5px;
 }
 
 .login-button button a {
     text-decoration: none;
-    color: #fff;
+    color: var(--lightgray);
     font-weight: 500;
+}
+
+.login-button button a:hover{
+    color: var(--white);
 }
 
 .mobile-menu-icon {
@@ -64,6 +86,16 @@ header {
 
 .mobile-menu {
     display: none;
+}
+
+#banners{
+    width: 100%;
+    height: 89vh;
+}
+
+.pilotos h2{
+    color: #24252a85;
+    font-size: 5rem;
 }
 
 @media screen and (max-width: 730px) {
