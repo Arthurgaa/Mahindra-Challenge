@@ -14,6 +14,17 @@
     --white: #FFFFFF;
 }
 
+::-webkit-scrollbar{
+    width: 11px;
+    background: var(--lightgray);
+}
+
+::-webkit-scrollbar-thumb{
+    width: 100%;
+    background: var(--red);
+    border-radius: 5px;
+}
+
 header {
     background-color: var(--lightgray);
     box-shadow: 0px 3px 10px #464646;
