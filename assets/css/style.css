@@ -93,9 +93,42 @@ header {
     height: 89vh;
 }
 
-.pilotos h2{
+#pilotos{
+    display: flex;
+    gap: 100px;
+}
+
+#pilotos h2{
     color: #24252a85;
     font-size: 5rem;
+}
+
+.nidvr img{
+    width: 600px;
+    background: #c7c7c79f;
+    background: linear-gradient(transparent, #b9b9b9);
+}
+
+.nidvr h3{
+    font-size: 50px;
+    background: var(--red);
+    border-radius: 0px 1px 100px 0px;
+    color: var(--white);
+    text-align: center;
+}
+
+.edmo img{
+    width: 600px;
+    background: #c7c7c79f;
+    background: linear-gradient(transparent, #b9b9b9);
+}
+
+.edmo h3{
+    font-size: 50px;
+    background: var(--red);
+    border-radius: 0px 1px 100px 0px;
+    color: var(--white);
+    text-align: center;
 }
 
 @media screen and (max-width: 730px) {
