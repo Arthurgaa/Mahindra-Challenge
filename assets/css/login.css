@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+    outline: none;
+    font-family: "Poppins", sans-serif;
+}
+
+:root{
+    --red: #B81D1A;
+    --darkgray: #111111;
+    --lightgray: #24252a;
+    --white: #FFFFFF;
+}
+
+body{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../img/carro3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.content{
+    background: transparent;
+    width: 410px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(24px);
+    color: var(--red);
+    border-radius: 12px;
+    padding: 30px 35px;
+}
+
+.content h2{
+    font-size: 38px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.title{
+    position: relative; 
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--red);
+    margin-bottom: 10px;
+ }
+
+.title::before{
+    position: absolute;
+    content: '';
+    left: 55;
+    bottom: -6px;
+    height: 3px;
+    width: 105px;
+    background: white;
+}
+
+.input-box{
+    position: relative;
+    width: 100%;
+    height: 55px;
+    margin: 30px 0;
+}
+
+.input-box input{
+    background: transparent;
+    width: 100%;
+    height: 100%;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 8px;
+    font-size: 16px;
+    color: var(--red);
+    padding: 20px 45px 20px 20px;
+}
+
+input::placeholder{
+    color: var(--red);
+}
+
+.input-box i{
+    position: absolute;
+    right: 18px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+}
+
+.remember{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 15px;
+    margin: -16px 0 16px;
+}
+
+.remember label input{
+    accent-color: var(--red);
+    margin-right: 4px;
+}
+
+.remember a{
+    color: var(--red);
+}
+
+.remember a:hover{
+    text-decoration: underline;
+}
+
+.btnn{
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background: white;
+    color: var(--red);
+    width: 100%;
+    border-radius: 30px;
+    font-size: 16px;
+    height: 45px;
+    font-weight: 600;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    margin-bottom: 30px;
+    transition: all .50s ease;
+}
+
+.btnn:hover{
+    background: var(--red);
+    color: white;
+}
