@@ -117,6 +117,29 @@ h2{
 h3{
     color: #24252aa9;
     font-size: 3rem;
+    text-align: center;
+}
+
+h4{
+    font-weight: bold; 
+    font-size: 35px;
+    padding: 5px 10px;
+}
+
+h5{
+    font-weight: bold; 
+    font-size: 25px;
+    padding: 5px 10px;
+}
+
+p{
+    margin-bottom: 2em;
+    text-indent: 1.5em;
+    margin-top: 0;
+}
+
+span{
+    color: var(--red);
 }
 
 .nidvr img{
