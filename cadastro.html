@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--CSS EXTERNO-->
+    <link rel="stylesheet" href="./assets/css/cadastro.css">
+    <!--ICONS MENU-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <title>OCEAN GUARDIAN CADASTRO</title>
+</head>
+<body>
+
+    <section class="main">
+        <h1 class="title">Cadastre-se</h1>
+        <form action="./login.html">
+            <div class="main-box">
+                <div class="input-box">
+                    <span class="text">Nome:</span>
+                    <input type="text" placeholder="Nome" required>
+                </div>
+
+                <div class="input-box">
+                    <span class="text">Sobrenome:</span>
+                    <input type="text" placeholder="Sobrenome" required>
+                </div>
+
+                <div class="input-box">
+                    <span class="text">Email:</span>
+                    <input type="email" placeholder="Email" required>
+                </div>
+
+                <div class="input-box">
+                    <span class="text">Telefone:</span>
+                    <input type="number" placeholder="Numero de Telefone" required>
+                </div>
+
+                <div class="input-box">
+                    <span class="text">Senha:</span>
+                    <input type="password" placeholder="Senha" required>
+                </div>
+
+                <div class="input-box">
+                    <span class="text">Confirmar Senha:</span>
+                    <input type="password" placeholder="Confirme sua Senha" required>
+                </div>
+            </div>
+
+            <div class="container">
+                <input type="radio" name="gender" id="circle-1" required>
+                <input type="radio" name="gender" id="circle-2" required> 
+                <input type="radio" name="gender" id="circle-3" required>
+                <span class="gender">Gênero:</span>
+                <div class="category">
+                    <label for="circle-1">
+                        <span class="circle one"></span>
+                        <span class="male">Homem</span>
+                    </label>
+
+                    <label for="circle-2">
+                        <span class="circle two"></span>
+                        <span class="male">Mulher</span>
+                    </label>
+
+                    <label for="circle-3">
+                        <span class="circle three"></span>
+                        <span class="male">Outro</span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="btn">
+                <input type="submit" value="Confirmar">
+            </div>
+            <button type="button" class="btnn" onclick="window.location.href='/'">Home</button>
+
+        </form>
+    </section>
+    
+</body>
+</html>
