@@ -3,6 +3,9 @@ Arthur Galvão Alves - RM554462 Felipe Braunstein e Silva - RM554483 Jefferson J
 
 # Site do Desafio Mahindra
 
+## Qual o objetivo do site?
+A Mahindra nos convidou para criar algo que ajudasse a divulgação da Fórmula E em um geral, e dentro disso era a criação de um site para ampliar a imagem da Mahindra e da Fórmula E.
+
 ## Visão geral
 Este projeto é o código-fonte do site Mahindra Challenge. Possui uma barra de navegação responsiva, seções para pilotos e sobre a empresa e CSS externo para estilo.
 
